@@ -1,4 +1,4 @@
-package com.viavarejo.compra.recursos;
+package com.viavarejo.compra.controles;
 
 import java.net.URI;
 import java.util.List;
