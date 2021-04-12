@@ -18,7 +18,7 @@ import com.viavarejo.compra.servicos.ProdutoServico;
 
 @RestController
 @RequestMapping(value = "/v1/produtos")
-public class ProdutoRecurso {
+public class ProdutoControler {
 
 	@Autowired
 	private ProdutoServico servico;

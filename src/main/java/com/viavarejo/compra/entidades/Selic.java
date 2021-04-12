@@ -36,6 +36,6 @@ public class Selic implements Serializable {
 
     @Override
     public String toString() {
-        return "Selic [data=" + data + ", valor=" + valor + "]";
+        return "" + valor ;
     }
 }
