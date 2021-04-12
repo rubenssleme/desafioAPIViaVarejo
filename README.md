@@ -11,6 +11,8 @@ MAVEN 3.6.3 ou superior
 
 ```
 ```
+git clone https://github.com/rubenssleme/desafioAPIViaVarejo.git
+
 cd desafioAPIViaVarejo
 
 ./mvnw spring-boot:run
