@@ -27,4 +27,12 @@ public class PagtoServico {
 	public Pagto insert(Pagto obj) {
 		return repositorio.save(obj);
 	}
+	
+	public void delete(Pagto obj) {
+        repositorio.delete(obj);
+    }
+
+    public Pagto update(Pagto obj) {
+        return repositorio.save(obj);
+    }
 }

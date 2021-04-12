@@ -28,6 +28,13 @@ public class ProdutoServico {
 	public Produto insert(Produto obj) {
 		return repositorio.save(obj);
 	}
+	public void delete(Produto produto) {
+        repositorio.delete(produto);
+    }
+
+    public Produto update(Produto produto) {
+        return repositorio.save(produto);
+    }
 	
 	
 }
